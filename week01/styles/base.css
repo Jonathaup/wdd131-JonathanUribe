@@ -30,7 +30,7 @@ header span {
 .navbar {
     padding: 0 1rem;
     display: flex;
-    width: 100%;
+    max-width: 98%;
     justify-content: space-between;
 }
 
@@ -39,9 +39,12 @@ header span {
 }
 
 .navbar a {
-    padding: 0.5rem 2rem;
+    padding: 1rem;
     border: 2px solid #22313f;
     text-align: center;
+    margin-top: 0.5rem ;
+    margin-bottom: 0.5rem ;
+
 }
 
 main {
