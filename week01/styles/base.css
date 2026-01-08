@@ -26,9 +26,8 @@ header span {
 }
 
 .navbar {
-    padding: 0 1rem;
     display: flex;
-    max-width: 98%;
+    max-width: 100%;
     justify-content: space-between;
 }
 
@@ -40,9 +39,7 @@ header span {
     padding: 1rem;
     border: 2px solid #22313f;
     text-align: center;
-    margin-top: 0.5rem ;
-    margin-bottom: 0.5rem ;
-
+    margin: 0.5rem;
 }
 
 main {
@@ -148,5 +145,6 @@ footer {
     .navbar {
         flex-direction: column;
         margin: 5px 0;
+        
     }
 }
