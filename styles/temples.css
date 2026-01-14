@@ -14,19 +14,19 @@ footer {
 }
 
 
-#menu{
+#menu {
     font-size: 1.5rem;
-	border: 0;
-	background: none;
-	color: white;
- 	position: absolute;
-	top: 1rem;
-	right: 1rem;
+    border: 0;
+    background: none;
+    color: white;
+    position: absolute;
+    top: 1rem;
+    right: 1rem;
 
 }
 
 #menu::before {
-	content: "☰";
+    content: "☰";
 }
 
 #menu.open::before {
@@ -34,10 +34,11 @@ footer {
 }
 
 
-nav{
-        display: flex;
+nav {
+    display: flex;
     flex-direction: column;
 }
+
 .navbar-temple {
 
     gap: 1rem;
@@ -46,18 +47,19 @@ nav{
 }
 
 .navbar-temple a {
-    display:none;
+    display: none;
     color: white;
     text-decoration: none;
     font-weight: bold;
     font-size: large;
     padding: 0.3rem;
-    
+
 
 }
+
 .navbar-temple a.active {
     background-color: #4E0110;
-    
+
 }
 
 .navbar-temple a:hover {
@@ -68,30 +70,33 @@ nav{
 .open a {
     display: block;
     padding-top: 1rem;
-    
+
 }
 
-#title-temple{
+#title-temple {
     font-size: xx-large;
 }
 
 h1 {
     text-align: center;
 }
-figure{
+
+figure {
     text-align: center;
     padding-bottom: 0.5rem;
-    
+
 }
+
 main {
     display: grid;
     grid-template-columns: 1fr;
     max-width: 80%;
     margin: 0 auto;
 }
+
 main figure:hover {
     box-shadow: 0 0 50px #333;
-    
+
 }
 
 main img {
@@ -99,6 +104,6 @@ main img {
     height: 100%;
 }
 
-footer{
+footer {
     justify-items: center;
 }
