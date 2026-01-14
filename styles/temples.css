@@ -32,14 +32,14 @@ footer {
 #menu.open::before {
     content: "⨉";
 }
-.open a {
-	display: block;
 
-}
 
-.navbar-temple {
-    display: flex;
+nav{
+        display: flex;
     flex-direction: column;
+}
+.navbar-temple {
+
     gap: 1rem;
     align-items: center;
     list-style: none;
@@ -73,7 +73,6 @@ footer {
 
 #title-temple{
     font-size: xx-large;
-    margin-bottom: -10px;
 }
 
 h1 {
